@@ -91,8 +91,8 @@ body {
 
 /* Anneau doré autour de la photo */
 .photo-ring {
-  width: 128px;
-  height: 128px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   padding: 4px;
   background: linear-gradient(135deg, var(--accent), var(--accent-lt));
@@ -116,13 +116,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 .photo-placeholder svg {
   width: 58px;
   height: 58px;
   fill: var(--muted);
 }
-
+img{
+  margin-top: 40px;
+  width: 100%;
+}
 /* Bloc nom + titre sous la photo */
 .name-block { text-align: center; }
 
@@ -398,7 +402,7 @@ body {
 .tl-item:not(:last-child)::before {
   content: '';
   position: absolute;
-  left: 76px;
+  left: 92px;
   top: 6px;
   bottom: 0;
   width: 2px;
@@ -410,7 +414,7 @@ body {
 .tl-body::before {
   content: '';
   position: absolute;
-  left: 76px;
+  left: 0px;
   top: 6px;
   width: 10px;
   height: 10px;
