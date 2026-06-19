@@ -619,8 +619,8 @@ img{
   .tl-item { grid-template-columns: 60px 1fr; gap: 12px; }
 
   /* La timeline n'a plus de ligne sur mobile étroit */
-  .tl-item:not(:last-child)::before { left: 60px; }
-  .tl-body::before { left: 60px; }
+  .tl-item:not(:last-child)::before { left: 70px; }
+  .tl-body::before { left: 0px; }
 }
 
 /* ════════════════════════════════════════════════
